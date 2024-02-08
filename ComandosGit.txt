@@ -1,0 +1,78 @@
+Andres Felipe Galvis Tellez
+
+
+1. `git init`: Este comando inicializa un repositorio Git en un directorio. Crea un nuevo repositorio Git en la ubicación especificada y establece un nuevo árbol de trabajo en ese directorio.
+
+2. `git add <archivo>`: Este comando agrega archivos al área de preparación (staging area) para ser incluidos en el próximo commit. Puedes especificar un archivo en particular o usar `.` para agregar todos los archivos modificados.
+
+3. `git commit -m "mensaje"`: Con este comando confirmas los cambios que has agregado al área de preparación y los guarda en el repositorio Git. El mensaje se utiliza para describir los cambios realizados en este commit.
+
+4. `git status`: Muestra el estado actual del directorio de trabajo y del área de preparación. Te informa sobre qué archivos han sido modificados, agregados o eliminados y si están listos para ser confirmados.
+
+5. `git log`: Muestra un registro de todos los commits realizados en el repositorio, mostrando información como el autor del commit, la fecha y la descripción.
+
+6. `git branch`: Muestra una lista de todas las ramas en el repositorio. La rama actualmente activa se resalta y puedes crear nuevas ramas con este comando.
+
+7. `git checkout <nombre_rama>`: Cambia a la rama especificada. Este comando te permite cambiar entre ramas existentes en tu repositorio.
+
+8. `git merge <nombre_rama>`: Fusiona la rama especificada con la rama actual. Este comando combina los cambios de la rama especificada en la rama en la que te encuentras actualmente.
+
+9. `git pull`: Descarga los cambios desde un repositorio remoto y los fusiona automáticamente en tu rama local. Es útil para mantener actualizado tu repositorio local con los cambios realizados por otros colaboradores.
+
+10. `git push`: Sube los cambios confirmados en tu repositorio local a un repositorio remoto. Es útil para compartir tu trabajo con otros colaboradores o para mantener una copia de seguridad en un servidor remoto.
+
+
+11. `git clone <URL>`: Este comando crea una copia local de un repositorio remoto. Clona un repositorio Git existente desde una ubicación remota (como GitHub, GitLab, etc.) y lo guarda en un nuevo directorio en tu máquina local. Esto es útil cuando quieres trabajar en un proyecto existente y necesitas una copia local para empezar a trabajar o colaborar en él.
+
+
+
+1.git init: Inicia un nuevo repositorio Git en el directorio actual.
+   
+   git init
+   
+
+2. git clone: Clona un repositorio existente en un nuevo directorio.
+   
+   git clone <url_del_repositorio>
+   
+
+3. git add: Agrega cambios al área de preparación (staging).
+   
+   git add archivo.txt
+   
+
+4. git commit: Guarda los cambios en el repositorio.
+   
+   git commit -m "Mensaje descriptivo del commit"
+   
+
+5. git status: Muestra el estado actual del repositorio.
+   
+   git status
+   
+
+6. git push: Sube los cambios locales a un repositorio remoto.
+   
+   git push origin master
+   
+
+7. git pull: Obtiene y fusiona los cambios de un repositorio remoto.
+   
+   git pull origin master
+  
+
+8. git branch: Lista, crea o elimina ramas.
+   
+   git branch <nombre_rama>
+   
+
+9. git checkout: Cambia entre ramas o restaura archivos.
+   
+   git checkout <nombre_rama>
+   
+
+10. git merge: Fusiona una rama con otra.
+  
+   git merge <nombre_rama>
+   
+
